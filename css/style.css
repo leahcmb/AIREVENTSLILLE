@@ -1,8 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
-@import url("components/container.css");
-@import url("components/avatar.css");
-@import url("components/button.css");
+@import url("components/containert.css");
+@import url("components/logo-t.css");
+@import url("components/button-home.css");
+@import url("components/banner.css");
+@import url("components/topnav.css");
+@import url("components/box.css");
+@import url("components/sous-titre.css");
+
+
+
 
 body {
 	font-family: 'Poppins', sans-serif;
@@ -13,10 +20,22 @@ h1, h2, h3 {
 	font-weight: bold;
 }
 
+
+
 a {
 	text-decoration: none;
 }
 
+.picshome {
+	margin: 30px;
+	border-radius: 10px;
+}
 
-
-
+.card-help{
+	background-color: #F8F859;
+	padding: 60px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
+	border-radius: 10px; 
+	margin: 50px 0px;
+	text-align: center;
+}
