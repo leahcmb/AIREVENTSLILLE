@@ -1,4 +1,4 @@
-.card{
+.card {
  display: flex;
  margin-top: 100px;
  margin-left: 250px;
@@ -7,14 +7,14 @@
  justify-content: space-around;
  }
 
-.card{
+.card {
 	padding: 50px;
 	display: flex;
  	align-items: center;
  	justify-content: space-around;
 }
 
-.card-text-left{
+.card-text-left {
 	float: left;
   width: 400px;
 
@@ -28,7 +28,7 @@
 
 
 
-#card-menu-profiles{
+#card-menu-profiles {
 	display: flex;
 
 }
