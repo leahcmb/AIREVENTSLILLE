@@ -7,7 +7,7 @@
  justify-content: space-around;
  }
 
-.card {
+.card-elements {
 	padding: 50px;
 	display: flex;
  	align-items: center;
