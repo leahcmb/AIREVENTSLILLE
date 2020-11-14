@@ -1,0 +1,25 @@
+.btn-blue {
+	background-color: black; 
+	padding: 15px 20px;
+	border-radius: 10px; 
+	color: white;
+	font-weight: bold;
+	font-family: 'Poppins', sans-serif;
+}
+
+.btn-avatar{
+	position: absolute;
+	bottom: 60px;
+	right: 75px;
+	width: 100px;
+	height: 40px;
+	border-radius: 18px;
+	border-width : thin;
+	background-color: white;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.btn-avatar:hover {
+	background-color: yellow;
+}
