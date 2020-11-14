@@ -1,7 +1,105 @@
-.container {
+.containertop {
 	width: 700px; 
-	margin: 0 auto; 
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
 }
+
+.container2 {
+  width: 700px; 
+  margin: 0 auto; 
+  margin-top: 10px;
+  margin-bottom: 2px;
+  padding-top: 5px;
+  padding-bottom: 2px;
+
+ 
+
+}
+
+.container3 {
+  width: 700px; 
+  margin: 0 auto; 
+  margin-top: 1px;
+  margin-bottom: 80px;
+  padding-top: 0px;
+  text-decoration: justify;
+
+}
+
+.container4 {
+  width: 700px;
+  margin: auto;
+  margin-top: 1px;
+  text-align: center;
+}
+
+#container5 {
+width: 700px;
+text-align: center;
+margin: auto;
+text-align: justify;
+margin-right: 460px;
+}
+
+#containerquote {
+  width: 700px; 
+  margin: auto;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  color: black;
+
+
+}
+
+.imgdesign {
+  width: 100px; 
+  margin-right: 800px;
+}
+
+#bureaupic {
+  margin-right: 900px;
+  margin-left: 60px;
+  padding-top: 50px;
+  padding-bottom: 0px;
+}
+
+
+
+#typeform {
+  margin: 0px 200px 0px;
+  border-radius: 8px;
+}
+
+#containerbtn {
+  width: 700px; 
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  padding-left: 30px;
+  background-color: red;
+}
+
+#containerquote2 {
+  width: 700px; 
+  margin-top: 10px;
+  margin-bottom: 0px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  text-align: center;
+  margin: auto;
+  
+}
+
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
@@ -20,11 +118,4 @@
   .container {
     width: 300px;
   }
-}
-
-#container-menu-profiles{
-  position: center;
-  width: 200px;
-  padding: 130px;
-
 }

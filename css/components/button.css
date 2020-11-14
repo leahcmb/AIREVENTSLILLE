@@ -7,19 +7,35 @@
 	font-family: 'Poppins', sans-serif;
 }
 
-.btn-avatar{
-	position: absolute;
-	bottom: 60px;
-	right: 75px;
-	width: 100px;
-	height: 40px;
-	border-radius: 18px;
-	border-width : thin;
-	background-color: white;
-	font-size: 15px;
+.btn-blue2 {
+	background-color: black; 
+	padding: 15px 20px;
+	border-radius: 10px; 
+	color: white;
 	font-weight: bold;
+	font-family: 'Poppins', sans-serif;
+	
+
 }
 
-.btn-avatar:hover {
-	background-color: yellow;
+.btn-blue3 { 
+	background-color: black; 
+	padding: 15px 20px;
+	border-radius: 10px; 
+	color: white;
+	font-weight: bold;
+	font-family: 'Poppins', sans-serif;
+
+ }
+
+ .btn {
+ 	background-color: black; 
+	padding: 15px 20px;
+	border-radius: 10px; 
+	color: white;
+	font-weight: bold;
+	font-family: 'Poppins', sans-serif;
+	font-size: 18px;
+	padding-left: 7px;
+	padding-right: 7px;
 }
