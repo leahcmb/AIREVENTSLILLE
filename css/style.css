@@ -5,8 +5,14 @@
 @import url("components/button.css");
 @import url("components/card.css");
 @import url("components/icon.css");
-@import url("components/topnav.css");
 @import url("components/texte.css");
+@import url("components/containert.css");
+@import url("components/logo-t.css");
+@import url("components/button-home.css");
+@import url("components/banner.css");
+@import url("components/topnav.css");
+@import url("components/box.css");
+@import url("components/sous-titre.css");
 
 
 
@@ -32,4 +38,16 @@ h4 {
 a {
 	text-decoration: none;
 }
+.picshome {
+	margin: 30px;
+	border-radius: 10px;
+}
 
+.card-help{
+	background-color: #F8F859;
+	padding: 60px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
+	border-radius: 10px; 
+	margin: 50px 0px;
+	text-align: center;
+}
