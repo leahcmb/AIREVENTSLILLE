@@ -100,32 +100,12 @@ margin-right: 460px;
   
 }
 
-.card {
-	padding: 50px;
-	display: flex;
- 	align-items: center;
- 	justify-content: space-around;
-}
-
-.card-text-left{
-	float: left;
-  width: 400px;
-
+#container-menu-profiles{
+  position: center;
+  width: 200px;
+  padding: 130px;
 
 }
-
-.card-pictures-right{
-	margin-left: 60%;
-	justify-content: space-between;
-}
-
-
-
-#card-menu-profiles{
-	display: flex;
-
-}
-
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
