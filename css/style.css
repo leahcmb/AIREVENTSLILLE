@@ -42,6 +42,7 @@ a {
 .picshome {
 	margin: 30px;
 	border-radius: 10px;
+	width: 400px;
 }
 
 .card-help{
