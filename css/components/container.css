@@ -1,4 +1,16 @@
+.container-pages{
+	width : 700px;
+	margin : auto;
+	position : center;
+}
 
+
+#container-menu-profiles{
+  position: center;
+  width: 200px;
+  padding: 130px;
+
+}
 
 .containertop {
 	width: 700px; 
@@ -95,12 +107,6 @@ margin-right: 460px;
   
 }
 
-#container-menu-profiles{
-  position: center;
-  width: 200px;
-  padding: 130px;
-
-}
 
 .container-events {
   width: 700px; 
