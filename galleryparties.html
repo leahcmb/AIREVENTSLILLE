@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Air events</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<div class="topnav"> 	  <a href="index.html">HOME</a> 	  <a href="events.html">EVENTS</a> 	  <a href="quote.html">QUOTE</a> 	  <a href="near me.html">NEAR ME</a> 	  <a href="volunteering.html">VOLUNTEERING & JOBS</a> 	  <a class="active" href="about us.html">ABOUT US</a> </div>
+
+	<div style="text-align:center">
+  <h2>Tabbed Image Gallery</h2>
+  <p>Click on the images below:</p>
+	</div>
+
+<div class="container">
+
+<div class="row">
+  <div class="column">
+    <img src="images/galleryparties1.jpg" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="images/galleryparties2.jpg" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="images/galleryparties3.jpg" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="images/galleryparties4.jpeg" style="width:100%"  onclick="myFunction(this);">
+  </div>
+</div>
+
+
+<div class="containergallery">
+
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+  <img id="expandedImg" style="width:100%">
+	<div id="imgtext"></div>
+</div>
+
+	</div>
+	</div>
+
+<script>
+function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "block";
+}
+</script>
+
+	</body>
+</html>
