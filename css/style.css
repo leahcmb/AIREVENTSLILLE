@@ -65,9 +65,9 @@ a {
 }
 .list-inline i{
 	 font-size: 50px;
-	 color: #C5E3F7; 
+	 color: black; 
 }
 .list-inline i:hover{
 	font-size: 50px;
-	color: #F8C346;
+	color: #F8F859;
 }
